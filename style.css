@@ -2,7 +2,7 @@
 {
     padding: 0;
     margin: 0;
-
+   
 }
 
 nav{
@@ -56,16 +56,23 @@ ul li a{
     font-size: 35px;
 }
 .container{
-    padding-top: 30px;
-    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.col-md-5{
-    width: 90%;
-    height: 200px;
-    margin-left: 10px;
-}
 
+.col{
+    flex-basis: 31%;
+    background: rgb(208, 222, 232);
+    border-radius: 40px;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    
+}
 footer{
     background-color: black;
     height: 70px;   
@@ -121,13 +128,26 @@ footer{
     background-size: 100% 100%;
 }
 .row{
+    padding-left: 5%;
+    padding-right: 5%;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+}
+.adress-col{
+    flex-basis: 31%;
+    background: hwb(78 51% 7%);
+    border-radius: 40px;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    box-sizing: border-box;
 }
 
 footer{
     background-color: #C41D29;
     height: 50px;   
     width: 100%;
+}
+@media(max-width: 700px){
+    
 }
