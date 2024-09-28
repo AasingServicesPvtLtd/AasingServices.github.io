@@ -120,6 +120,11 @@ footer{
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
 
 footer{
     background-color: #C41D29;
