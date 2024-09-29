@@ -143,6 +143,14 @@ footer{
     box-sizing: border-box;
 }
 
+.contact-col input, .contact-col textarea{
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline:auto;
+    border: 1px solid #0000;
+}
+
 footer{
     background-color: #C41D29;
     height: 50px;   
