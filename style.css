@@ -137,10 +137,12 @@ footer{
 .adress-col{
     flex-basis: 31%;
     background: lightgreen;
-    border-radius: 40px;
+    border-radius: 30px;
     margin-bottom: 5%;
     padding: 10px 10px;
     box-sizing: border-box;
+    margin: 2px;
+    
 }
 
 .contact-col input, .contact-col textarea{
